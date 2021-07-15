@@ -28,12 +28,19 @@
 
 
 
-let admin;
-let userName;
 
-userName = 'Джон';
 
-admin = userName;
+// let admin;
+// let userName;
 
-alert(admin);
+// userName = 'Джон';
 
+// admin = userName;
+
+// alert(admin);
+
+
+
+
+let name = prompt('Как твоё имя?', '');
+alert('Твоё имя ' + name);
