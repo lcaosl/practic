@@ -42,5 +42,16 @@
 
 
 
-let name = prompt('Как твоё имя?', '');
-alert('Твоё имя ' + name);
+// let name = prompt('Как твоё имя?', '');
+// alert('Твоё имя ' + name);
+
+
+
+// let x = "" - 1 + 0;
+// alert(x);
+
+
+let a = prompt("Первое число?", 1);
+let b = prompt("Второе число?", 2);
+
+alert(+a + +b); // 12
